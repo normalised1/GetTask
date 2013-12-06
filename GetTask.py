@@ -33,7 +33,6 @@ for key in objects:
 
 description = selected_task['description']
 if 'min_count' in selected_task:
-	print 'count based task'
 	min_count = selected_task['min_count']
 	max_count = min_count
 	if 'max_count' in selected_task:
