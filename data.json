@@ -1,0 +1,160 @@
+{
+	"task1"	: {
+		"description" : "Bengay on pussy for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
+
+	"task1"	: {
+		"description" : "Stand in corner for $DURATION",
+		"min_duration":3,
+		"max_duration":30
+		},
+
+	"task4"	: {
+		"description" : "Hold a quarter to wall with nose for $DURATION",
+		"min_duration":10,
+		"max_duration":30
+		},
+
+	"task6"	: {
+		"description" : "Dildo in pussy for at least $DURATION - may be removed to use bathroom",
+		"min_duration":30,
+		"max_duration":240
+		},
+
+	"task4"	: {
+		"description" : "Nose to floor in corner for $DURATION",
+		"min_duration" : 5,
+		"max_duration" : 30
+		},
+
+
+	"task5"	: {
+		"description" : "Butt plug for at least $DURATION - may be removed to use bathroom",
+		"min_duration":60,
+		"max_duration":300
+		},
+
+
+	"task7"	: {
+		"description" : "$COUNT spankings on $ITEM",
+		"items" : [
+			"ass with cane",
+			"thighs with cane",
+			"tits with cane",
+			"pussy with cane",
+
+			"ass with belt",
+			"thighs with belt",
+			"tits with belt",
+			"pussy with belt",
+
+			"ass with hand",
+			"thighs with hand",
+			"tits with hand",
+			"pussy with hand",
+
+			"ass with ruler",
+			"thighs with ruler",
+			"tits with ruler",
+			"pussy with ruler"
+
+		],
+		"min_count":10,
+		"max_count":20
+		},
+
+	"task8"	: {
+		"description" : "$COUNT face slaps",
+		"min_count":10,
+		"max_count":20
+		},
+
+	"task9"	: {
+		"description" : "Additional label on $ITEM",
+		"items" : [
+			"stomach",
+			"tits",
+			"ass",
+			"thighs",
+			"arms",
+			"legs"
+		]
+
+		},
+
+	"task10"	: {
+		"description" : "Remove all clothes in public restroom $COUNT times during the day",
+		"min_count":1,
+		"max_count":3
+		},
+
+	"task10"	: {
+		"description" : "No task today =)"
+		},
+
+	"task10"	: {
+		"description" : "$COUNT clothes pins on  for $DURATION",
+		"items" : [
+			"pussy",
+			"nipples",
+			"breasts",
+			"tongue"
+			],
+		"min_count":5,
+		"max_count":20,
+		"min_duration":1,
+		"max_duration":10
+		},
+
+	"task10"	: {
+		"description" : "Eat meal from floor"
+		},
+
+	"task10"	: {
+		"description" : "$COUNT ice cubes in $ITEM",
+		"items" : [
+			"pussy",
+			"ass"
+			],
+		"min_count":1,
+		"max_count":5
+		},
+
+	"task10"	: {
+		"description" : "Wax on $ITEM",
+		"items" : [
+			"nipples",
+			"stomach",
+			"pussy",
+			"ass"
+			]
+		},
+
+	"task10"	: {
+		"description" : "Submissive position for $DURATION",
+		"min_duration":5,
+		"max_duration":30
+		},
+
+	"task10"	: {
+		"description" : "Normal task (eating, cleaning) with handcuffs "
+		},
+
+	"task10"	: {
+		"description" : "Bondage for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
+
+	"task10"	: {
+		"description" : "Eat come in food"
+		},
+
+	"task10"	: {
+		"description" : "Write 'I am a worthless fucktoy' $COUNT times",
+		"min_count":50,
+		"max_count":300
+		}
+}
