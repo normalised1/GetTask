@@ -1,1 +1,1 @@
-python GetTask.py
+python DailyTask.py
