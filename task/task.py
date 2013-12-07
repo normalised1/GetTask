@@ -1,5 +1,30 @@
 import json
 import random
+from round_up import round_up
+
+def getTagSymbol(tag):
+	return unicode('$' + tag.upper())
+
+def getNumericalValue(selected_task, tagName):
+	range_min_key = 'min_' + tagName
+	range_max_key = 'max_' + tagName
+
+	c = None
+	if getTagSymbol(tagName) in selected_task['description']:
+		min_value = 1
+		if range_min_key in selected_task:
+			min_value = selected_task[range_min_key]
+
+		max_value = min_value
+		if range_max_key in selected_task:
+			max_value = selected_task[range_max_key]
+
+		c = random.randint(min_value, max_value)
+		if c > 100:
+			c = round_up(c, 10)
+		elif c > 20:
+			c = round_up(c, 5)
+	return c
 
 def GetTask(seed):
 	import os
@@ -18,28 +43,18 @@ def GetTask(seed):
 			break
 
 	description = selected_task['description']
-	if 'min_count' in selected_task:
-		min_count = selected_task['min_count']
-		max_count = min_count
-		if 'max_count' in selected_task:
-			max_count = selected_task['max_count']
+	count = getNumericalValue(selected_task, 'count')
+	if count != None:
+		description = unicode.replace(description, getTagSymbol('count'), unicode(count))
 
-		c = random.randint(min_count, max_count)
-		description = unicode.replace(selected_task['description'], u'$COUNT', unicode(c))
-
-	if 'min_duration' in selected_task:
-		min_duration = selected_task['min_duration']
-		max_duration = min_duration
-		if 'max_duration' in selected_task:
-			max_duration = selected_task['max_duration']
-
-		c = random.randint(min_duration, max_duration)
-		description = unicode.replace(description, u'$DURATION', unicode(c) + u' minutes')
+	duration = getNumericalValue(selected_task, 'duration')
+	if duration != None:
+		description = unicode.replace(description, getTagSymbol('duration'), unicode(duration) + u' minutes')
 
 	if 'items' in selected_task:
 		item_index = random.randint(0, len(selected_task['items']) - 1)
 		item = selected_task['items'][item_index]
-		description = unicode.replace(description, u'$ITEM', unicode(item))
+		description = unicode.replace(description, getTagSymbol('item'), unicode(item))
 
 	return description
 
