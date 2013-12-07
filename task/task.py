@@ -2,6 +2,10 @@ import json
 import random
 
 def GetTask(seed):
+	import os
+	# Change directory so data.json can be foun d
+	os.chdir('/home/normalised/webapps/get_task/htdocs')
+
 	f = file('data.json')
 	objects = json.load(f)
 	random.seed(seed)

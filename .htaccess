@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^(.*)daily_task $1/daily_task.py
+
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^(.*)random_task $1/random_task.py
