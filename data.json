@@ -91,16 +91,16 @@
 		},
 
 	"task10"	: {
-		"description" : "No task today =)"
+		"description" : "Free orgasm!"
 		},
 
 	"task10"	: {
-		"description" : "$COUNT clothes pins on  for $DURATION",
+		"description" : "$COUNT clothes pins on $ITEM for $DURATION",
 		"items" : [
 			"pussy",
 			"nipples",
 			"breasts",
-			"tongue"
+			"sides"
 			],
 		"min_count":5,
 		"max_count":20,
@@ -109,11 +109,11 @@
 		},
 
 	"task10"	: {
-		"description" : "Eat meal from floor"
+		"description" : "Eat 1 meal from the floor"
 		},
 
 	"task10"	: {
-		"description" : "$COUNT ice cubes in $ITEM",
+		"description" : "Insert $COUNT ice cubes into $ITEM",
 		"items" : [
 			"pussy",
 			"ass"
@@ -123,7 +123,7 @@
 		},
 
 	"task10"	: {
-		"description" : "Wax on $ITEM",
+		"description" : "Hot wax on $ITEM",
 		"items" : [
 			"nipples",
 			"stomach",
@@ -133,13 +133,13 @@
 		},
 
 	"task10"	: {
-		"description" : "Submissive position for $DURATION",
+		"description" : "Lie on back with pussy spread for $DURATION",
 		"min_duration":5,
 		"max_duration":30
 		},
 
 	"task10"	: {
-		"description" : "Normal task (eating, cleaning) with handcuffs "
+		"description" : "Clean around the house while wearing handcuffs"
 		},
 
 	"task10"	: {
@@ -155,6 +155,6 @@
 	"task10"	: {
 		"description" : "Write 'I am a worthless fucktoy' $COUNT times",
 		"min_count":50,
-		"max_count":300
+		"max_count":150
 		}
 }
