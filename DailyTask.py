@@ -1,6 +1,7 @@
 import sys
 import datetime
 sys.path.append('/home/normalised/webapps/get_task/htdocs')
+sys.path.append('/home/normalised/webapps/get_task/htdocs/task')
 from task.task import GetTask
 
 
