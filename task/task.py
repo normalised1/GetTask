@@ -51,7 +51,10 @@ def GetTask(seed):
 
 	duration = getNumericalValue(selected_task, 'duration')
 	if duration != None:
-		description = unicode.replace(description, getTagSymbol('duration'), unicode(duration) + u' minutes')
+		if duration == 1:
+			description = unicode.replace(description, getTagSymbol('duration'), unicode(duration) + u' minute')
+		else:
+			description = unicode.replace(description, getTagSymbol('duration'), unicode(duration) + u' minutes')
 
 	if 'items' in selected_task:
 		item_index = random.randint(0, len(selected_task['items']) - 1)

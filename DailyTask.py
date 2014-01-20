@@ -7,7 +7,7 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	date = datetime.datetime.now()
-	day = date.day + 118 
+	day = date.day + 208 
 	month = date.month
 	year = date.year
 	seed = day * 100 + month * 1000 + year

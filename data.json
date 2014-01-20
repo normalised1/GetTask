@@ -1,14 +1,14 @@
 {
-	"task1"	: {
+	"task5"	: {
 		"description" : "Bengay on pussy for $DURATION",
 		"min_duration":10,
 		"max_duration":60
 		},
 
-	"task1"	: {
+	"task6"	: {
 		"description" : "Stand in corner for $DURATION",
 		"min_duration":3,
-		"max_duration":30
+		"max_duration":25
 		},
 
 	"task4"	: {
@@ -17,27 +17,138 @@
 		"max_duration":30
 		},
 
-	"task6"	: {
+	"task5"	: {
 		"description" : "Dildo in pussy for at least $DURATION - may be removed to use bathroom",
 		"min_duration":30,
 		"max_duration":100
 		},
 
-	"task4"	: {
+	"task6"	: {
 		"description" : "Nose to floor in corner for $DURATION",
 		"min_duration" : 5,
 		"max_duration" : 30
 		},
 
 
-	"task5"	: {
+	"task7"	: {
 		"description" : "Butt plug for at least $DURATION - may be removed to use bathroom",
 		"min_duration":60,
 		"max_duration":300
 		},
 
+	"task8"	: {
+		"description" : "Hogtied for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
 
-	"task7"	: {
+
+
+
+	"task9"	: {
+		"description" : "$COUNT face slaps",
+		"min_count":10,
+		"max_count":20
+		},
+
+	"task27"	: {
+		"description" : "Additional label on $ITEM",
+		"items" : [
+			"stomach",
+			"tits",
+			"ass",
+			"thighs",
+			"arms",
+			"legs"
+		]
+
+		},
+
+	"task28"	: {
+		"description" : "Remove all clothes in public restroom $COUNT times during the day",
+		"min_count":1,
+		"max_count":3
+		},
+
+	"task29"	: {
+		"description" : "Free orgasm!"
+		},
+
+	"task30"	: {
+		"description" : "$COUNT clothes pins on $ITEM for $DURATION",
+		"items" : [
+			"breasts",
+			"pussy",
+			"sides"
+			],
+		"min_count":5,
+		"max_count":20,
+		"min_duration":1,
+		"max_duration":10
+		},
+
+	"task31"	: {
+		"description" : "Eat 1 meal from the floor"
+		},
+
+	"task32"	: {
+		"description" : "Insert $COUNT ice cubes into $ITEM",
+		"items" : [
+			"pussy",
+			"ass"
+			],
+		"min_count":1,
+		"max_count":5
+		},
+
+	"task33"	: {
+		"description" : "Hot wax on $ITEM",
+		"items" : [
+			"nipples",
+			"stomach",
+			"pussy",
+			"ass"
+			]
+		},
+
+	"task34"	: {
+		"description" : "Lie on back with pussy spread for $DURATION",
+		"min_duration":5,
+		"max_duration":30
+		},
+
+	"task35"	: {
+		"description" : "Clean around the house while wearing handcuffs"
+		},
+
+	"task36"	: {
+		"description" : "Tied spread eagle for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
+
+	"task37"	: {
+		"description" : "Tied to a chair for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
+
+	"task38"	: {
+		"description" : "Tied to door-frame for $DURATION",
+		"min_duration":10,
+		"max_duration":60
+		},
+
+	"task39"	: {
+		"description" : "Eat come in food"
+		},
+
+	"task40"	: {
+		"description" : "Write 'I am a worthless fucktoy' $COUNT times",
+		"min_count":50,
+		"max_count":100
+		},
+	"task41"	: {
 		"description" : "$COUNT spankings on $ITEM",
 		"items" : [
 			"ass with cane",
@@ -63,98 +174,5 @@
 		],
 		"min_count":10,
 		"max_count":20
-		},
-
-	"task8"	: {
-		"description" : "$COUNT face slaps",
-		"min_count":10,
-		"max_count":20
-		},
-
-	"task9"	: {
-		"description" : "Additional label on $ITEM",
-		"items" : [
-			"stomach",
-			"tits",
-			"ass",
-			"thighs",
-			"arms",
-			"legs"
-		]
-
-		},
-
-	"task10"	: {
-		"description" : "Remove all clothes in public restroom $COUNT times during the day",
-		"min_count":1,
-		"max_count":3
-		},
-
-	"task10"	: {
-		"description" : "Free orgasm!"
-		},
-
-	"task10"	: {
-		"description" : "$COUNT clothes pins on $ITEM for $DURATION",
-		"items" : [
-			"pussy",
-			"nipples",
-			"breasts",
-			"sides"
-			],
-		"min_count":5,
-		"max_count":20,
-		"min_duration":1,
-		"max_duration":10
-		},
-
-	"task10"	: {
-		"description" : "Eat 1 meal from the floor"
-		},
-
-	"task10"	: {
-		"description" : "Insert $COUNT ice cubes into $ITEM",
-		"items" : [
-			"pussy",
-			"ass"
-			],
-		"min_count":1,
-		"max_count":5
-		},
-
-	"task10"	: {
-		"description" : "Hot wax on $ITEM",
-		"items" : [
-			"nipples",
-			"stomach",
-			"pussy",
-			"ass"
-			]
-		},
-
-	"task10"	: {
-		"description" : "Lie on back with pussy spread for $DURATION",
-		"min_duration":5,
-		"max_duration":30
-		},
-
-	"task10"	: {
-		"description" : "Clean around the house while wearing handcuffs"
-		},
-
-	"task10"	: {
-		"description" : "Bondage for $DURATION",
-		"min_duration":10,
-		"max_duration":60
-		},
-
-	"task10"	: {
-		"description" : "Eat come in food"
-		},
-
-	"task10"	: {
-		"description" : "Write 'I am a worthless fucktoy' $COUNT times",
-		"min_count":50,
-		"max_count":150
 		}
 }
