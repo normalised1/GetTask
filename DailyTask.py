@@ -19,7 +19,7 @@ def application(environ, start_response):
 	seed = day * 100 + month * 1000 + year
 
 	output = '''<html><head><link rel="stylesheet" type="text/css" href="style.css"></head>
-<body><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>' + str(GetTask(seed)) + '</h2></p>'
+<body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>' + str(GetTask(seed)) + '</h2></p>'
 
 	if previous != True:
 		output += '<a href="daily_task?previous">yesterday</a>'

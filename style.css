@@ -1,31 +1,44 @@
 h2
 {
-font-size:200%;
+width:100%;
+margin-left:10%;
 color:white;
-margin-left:20px;
-font-family:arial;
+font-family:Helvetica;
 }
 
 p
 {
-font-size:100%;
-margin-left:20px;
+width:100%;
+margin-left:10%;
 color:white;
-font-family:arial;
+font-family:Georgia;
+}
+
+b
+{
+color:#F60018;
 }
 
 a:link 
 {
-margin-left:20px;
-font-size:50%;
+width:100%;
+margin-left:10%;
+font-size:70%;
 text-decoration:none; 
-color:#A66382;
+color:#59EA3A;
 }
-a:visited {text-decoration:none;}
+a:visited 
+{
+text-decoration:none;
+color:#59EA3A;
+}
+
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
 body
 {
-background-color:#3B0808;
+background-color:#610B0B;
+line-height:100%;
+padding:0;
 }
