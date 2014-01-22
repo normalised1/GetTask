@@ -7,7 +7,7 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	date = datetime.datetime.now()
-	output = '<html><head><link rel="stylesheet" type="text/css" href="style.css"></head><body><br><p><b>Random</b> task:<h2>' + str(GetTask(date.microsecond))+ '</h2></p></body></html>'
+	output = '<html><head><link rel="stylesheet" type="text/css" href="style.css"></head><body><br><p><b>Random</b> task:<h2>' + str(GetTask(date.microsecond))+ '</h2></p><a href="random_task">another</a></body></html>'
 
 	response_headers = [
 		('Content-Length', str(len(output))),
