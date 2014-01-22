@@ -1,5 +1,6 @@
 h2
 {
+font-size:200%;
 color:white;
 margin-left:20px;
 font-family:arial;
@@ -7,12 +8,19 @@ font-family:arial;
 
 p
 {
+font-size:100%;
 margin-left:20px;
 color:white;
 font-family:arial;
 }
 
-a:link {text-decoration:none; color:#A66382}
+a:link 
+{
+margin-left:20px;
+font-size:50%;
+text-decoration:none; 
+color:#A66382;
+}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
