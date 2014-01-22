@@ -1,0 +1,23 @@
+h2
+{
+color:white;
+margin-left:20px;
+font-family:arial;
+}
+
+p
+{
+margin-left:20px;
+color:white;
+font-family:arial;
+}
+
+a:link {text-decoration:none; color:#A66382}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+body
+{
+background-color:#3B0808;
+}
