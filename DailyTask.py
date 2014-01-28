@@ -13,7 +13,7 @@ def application(environ, start_response):
 	else:
 		date = datetime.datetime.now()
 
-	day = date.day + 208 
+	day = date.day + 213 
 	month = date.month
 	year = date.year
 	seed = day * 100 + month * 1000 + year
