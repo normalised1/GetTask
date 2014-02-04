@@ -117,7 +117,12 @@
 		},
 
 	"cleaning-handcuffs"	: {
-		"description" : "Clean around the house while wearing handcuffs"
+		"description" : "Clean $ITEM while wearing handcuffs",
+		"items" : [
+			"around the house",
+			"toilet",
+			"bathroom floor"
+			]			
 		},
 
 	"spread-eagle"	: {
@@ -195,14 +200,13 @@
 	},
 
 	"backwards-toilet" : {
-		"description" : "Face backward when ever peeing into a toilet."
+		"description" : "Face backward to pee into any toilet used."
 	},
 
 	"sleep-modification" : {
 		"description" : "Sleep $ITEM.",
 		"items" : [
 			"with hands bound",
-			"on the floor",
 			"with butt plug in ass"
 		]
 	}
