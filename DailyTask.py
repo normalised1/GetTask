@@ -7,13 +7,18 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	previous = False
+	tweak_value = 225
 	if str(environ['QUERY_STRING'])=='previous':
 		date = datetime.datetime.now() - datetime.timedelta(days=1)
 		previous = True
 	else:
 		date = datetime.datetime.now()
+		try:
+			tweak_value = tweak_value + int(environ['QUERY_STRING'])
+		except:
+			pass
 
-	day = date.day + 213 
+	day = date.day + tweak_value
 	month = date.month
 	year = date.year
 	seed = day * 100 + month * 1000 + year
