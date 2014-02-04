@@ -6,8 +6,12 @@ from task.task import GetTask
 
 
 def application(environ, start_response):
-	date = datetime.datetime.now()
-	output = '<html><head><link rel="stylesheet" type="text/css" href="style.css"></head><body><br><p><b>Random</b> task:<h2>' + str(GetTask(date.microsecond))+ '</h2></p><a href="random_task">another</a></body></html>'
+	try:
+		seed = int(environ['QUERY_STRING'])
+	except:
+		seed = datetime.datetime.now().microsecond
+
+	output = '<html><head><link rel="stylesheet" type="text/css" href="style.css"></head><body><br><p><b>Random</b> task:<h2>' + str(GetTask(seed))+ '</h2></p><a href="random_task">another</a></body></html>'
 
 	response_headers = [
 		('Content-Length', str(len(output))),
