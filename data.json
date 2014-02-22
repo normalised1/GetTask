@@ -50,7 +50,7 @@
 
 	"face-slap"	: {
 		"description" : "$COUNT face slaps",
-		"min_count":10,
+		"min_count":5,
 		"max_count":20
 		},
 
@@ -67,8 +67,8 @@
 
 		},
 
-	"naked-in-bathroom"	: {
-		"description" : "Remove all clothes in public restroom $COUNT times during the day",
+	"naked-outside-of-home" : {
+		"description" : "Remove all clothes in restroom or any other public place $COUNT times during the day",
 		"min_count":1,
 		"max_count":3
 		},
@@ -90,7 +90,7 @@
 		"description" : "Eat 1 meal from the floor"
 		},
 
-	"ice-cubes"	: {
+	"ice-cubes" : {
 		"description" : "Insert $COUNT ice cubes into $ITEM",
 		"items" : [
 			"pussy",
@@ -100,7 +100,7 @@
 		"max_count":5
 		},
 
-	"tax"	: {
+	"tax" : {
 		"description" : "Hot wax on $ITEM",
 		"items" : [
 			"nipples",
@@ -110,10 +110,10 @@
 			]
 		},
 
-	"pussy-spread"	: {
-		"description" : "Lie on back with pussy spread for $DURATION",
-		"min_duration":5,
-		"max_duration":15
+	"deepthroat-training"	: {
+		"description" : "Deepthroat dildo $COUNT times.",
+		"min_count":5,
+		"max_count":15
 		},
 
 	"cleaning-handcuffs"	: {
@@ -125,26 +125,23 @@
 			]			
 		},
 
-	"spread-eagle"	: {
-		"description" : "Tied spread eagle for $DURATION",
+	"tied"	: {
+		"description" : "Tied $ITEM for $DURATION",
 		"min_duration":10,
-		"max_duration":60
+		"max_duration":30,
+		"items" : [
+			"to a chair",
+			"to a door-frame",
+			"spread eagle"
+		]
 		},
 
-	"tied-to-chair"	: {
-		"description" : "Tied to a chair for $DURATION",
-		"min_duration":10,
-		"max_duration":60
-		},
-
-	"tied-to-door"	: {
-		"description" : "Tied to door-frame for $DURATION",
-		"min_duration":10,
-		"max_duration":60
-		},
-
-	"come-in-food"	: {
-		"description" : "Eat come in food"
+	"something-in-food" : {
+		"description" : "Eat $ITEM in food",
+		"items" : [
+			"come",
+			"spit"
+		]
 		},
 
 	"write-lines"	: {
@@ -154,7 +151,8 @@
 		"items" : [
 			"This fucktoy is worthless",
 			"Nothing but a stupid cunt",
-			"Born to serve"
+			"Born to serve",
+			"This fucktoy will always do what it is told"
 			]
 		},
 
@@ -195,12 +193,30 @@
 			]
 	},
 	
-	"sandpaper-bra" : {
-		"description" : "Writing prompt: 'What is one additional thing this fucktoy could do to make its owner happier?'"
+	"writing" : {
+		"description" : "Writing prompt: '$ITEM'",
+		"items" : [
+			"Which limits or boundaries is this fucktoy most aroused to see pushed or tested?",
+			"What is one additional thing this fucktoy could do to make its owner happier?"
+			]
 	},
 
-	"sandpaper-bra2" : {
+	"flash" : {
+		"description" : "Take a picture of $ITEM outside of the house",
+		"items" : [
+			"ass",
+			"pussy",
+			"tits",
+			"dildo in mouth"
+		]
+	},
+
+	"sandpaper-bra" : {
 		"description" : "Wear sandpaper in bra."
+	},
+
+	"edging" : {
+		"description" : "Edge 1 time."
 	},
 
 	"sleep-modification" : {
@@ -209,6 +225,10 @@
 			"with hands bound",
 			"with butt plug in ass"
 		]
+	},
+
+	"item-in-cunt" : {
+		"description" : "Carry a normal household item in pussy all day."
 	}
 
 }
