@@ -7,7 +7,7 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	previous = False
-	tweak_value = 225
+	tweak_value = 239
 	if str(environ['QUERY_STRING'])=='previous':
 		date = datetime.datetime.now() - datetime.timedelta(days=1)
 		previous = True
