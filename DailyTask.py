@@ -7,25 +7,36 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	previous = False
-	tweak_value = 239
+	tweak_value = 438
+	fast_forward = 0
 	if str(environ['QUERY_STRING'])=='previous':
 		date = datetime.datetime.now() - datetime.timedelta(days=1)
 		previous = True
 	else:
 		date = datetime.datetime.now()
 		try:
-			tweak_value = tweak_value + int(environ['QUERY_STRING'])
+			fast_forward = int(environ['QUERY_STRING'])
 		except:
 			pass
 
-	day = date.day + tweak_value
+	day = date.day + fast_forward
 	month = date.month
 	year = date.year
-	seed = day * 100 + month * 1000 + year
+	seed = (day + tweak_value) * 100 + month * 1000 + year
+
+	task = str(GetTask(seed))
+	if day >= 10 and day < 15 and month == 6 and year == 2014:
+		task = 'Sleep on the floor.'
+		if day == 11:
+			task = 'Sleep on the floor, cunt.'
+		elif day == 12:
+			task = 'Sleep on the floor and dream about getting fucked in your whore ass.'
+		elif day > 12:
+			task = 'Sleep on the floor again.'
+			
 
 	output = '''<html><head><link rel="stylesheet" type="text/css" href="style.css"></head>
-<body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>' + str(GetTask(seed)) + '</h2></p>'
-
+<body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>{0}</h2></p>'''.format(task)
 	if previous != True:
 		output += '<a href="daily_task?previous">yesterday</a>'
 	else:
