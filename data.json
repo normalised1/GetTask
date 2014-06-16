@@ -1,14 +1,18 @@
 {
-	"bengay-pussy"	: {
-		"description" : "Bengay on pussy for $DURATION",
+	"bengay-cunt"	: {
+		"description" : "Bengay on cunt for $DURATION",
 		"min_duration":10,
 		"max_duration":60
 		},
 
-	"cornertime"	: {
-		"description" : "Stand in corner for $DURATION",
+	"corner-time"	: {
+		"description" : "$ITEM in corner for $DURATION",
 		"min_duration":3,
-		"max_duration":25
+		"max_duration":25,
+		"items" : [
+			"Stand",
+			"Nose to floor"
+		]
 		},
 
 	"nose-to-wall"	: {
@@ -20,18 +24,13 @@
 	"dildo"	: {
 		"description" : "Dildo in $ITEM for at least $DURATION",
 		"min_duration":5,
-		"max_duration":30,
+		"max_duration":15,
 		"items" : [
 			"cunt",
-			"mouth"
+			"mouth",
+			"ass"
 		]
 		
-		},
-
-	"nose-to-floor"	: {
-		"description" : "Nose to floor in corner for $DURATION",
-		"min_duration" : 5,
-		"max_duration" : 30
 		},
 
 
@@ -77,8 +76,8 @@
 		"description" : "$COUNT clothes pins on $ITEM for $DURATION",
 		"items" : [
 			"breasts",
-			"pussy",
-			"sides"
+			"cunt",
+			"body"
 			],
 		"min_count":5,
 		"max_count":20,
@@ -87,13 +86,13 @@
 		},
 
 	"eat-from-floor"	: {
-		"description" : "Eat 1 meal from the floor"
+		"description" : "Eat 1 meal from the floor without using hands"
 		},
 
 	"ice-cubes" : {
 		"description" : "Insert $COUNT ice cubes into $ITEM",
 		"items" : [
-			"pussy",
+			"cunt",
 			"ass"
 			],
 		"min_count":1,
@@ -105,24 +104,19 @@
 		"items" : [
 			"nipples",
 			"stomach",
-			"pussy",
+			"cunt",
 			"ass"
 			]
 		},
 
 	"deepthroat-training"	: {
-		"description" : "Deepthroat dildo $COUNT times.",
+		"description" : "Deepthroat dildo $COUNT times",
 		"min_count":5,
 		"max_count":15
 		},
 
 	"cleaning-handcuffs"	: {
-		"description" : "Clean $ITEM while wearing handcuffs",
-		"items" : [
-			"around the house",
-			"toilet",
-			"bathroom floor"
-			]			
+		"description" : "Do chores while wearing handcuffs"
 		},
 
 	"tied"	: {
@@ -131,7 +125,7 @@
 		"max_duration":30,
 		"items" : [
 			"to a chair",
-			"to a door-frame",
+			"to a door frame",
 			"spread eagle"
 		]
 		},
@@ -149,10 +143,9 @@
 		"min_count":50,
 		"max_count":100,
 		"items" : [
-			"This fucktoy is worthless",
+			"This fucktoy exists to serve its owner",
 			"Nothing but a stupid cunt",
-			"Born to serve",
-			"This fucktoy will always do what it is told"
+			"This fucktoy will always do as it is told"
 			]
 		},
 
@@ -162,22 +155,22 @@
 			"ass with cane",
 			"thighs with cane",
 			"tits with cane",
-			"pussy with cane",
+			"cunt with cane",
 
 			"ass with belt",
 			"thighs with belt",
 			"tits with belt",
-			"pussy with belt",
+			"cunt with belt",
 
 			"ass with hand",
 			"thighs with hand",
 			"tits with hand",
-			"pussy with hand",
+			"cunt with hand",
 
 			"ass with ruler",
 			"thighs with ruler",
 			"tits with ruler",
-			"pussy with ruler"
+			"cunt with ruler"
 
 		],
 		"min_count":10,
@@ -185,7 +178,7 @@
 	},
 
 	"permission" : {
-		"description" : "Ask permission $ITEM. Lack of response indicates denial.",
+		"description" : "Ask permission $ITEM. Lack of response indicates denial",
 		"items" : [
 			"to use the restroom",
 			"to make any purchase larger than $5",
@@ -196,8 +189,10 @@
 	"writing" : {
 		"description" : "Writing prompt: '$ITEM'",
 		"items" : [
+			"As a fucktoy, what is your proper place? What type of treament do you deserve?",
 			"Which limits or boundaries is this fucktoy most aroused to see pushed or tested?",
-			"What is one additional thing this fucktoy could do to make its owner happier?"
+			"What is one additional thing this fucktoy should do to make its owner happier?",
+			"A sexual fantasy story"
 			]
 	},
 
@@ -205,30 +200,36 @@
 		"description" : "Take a picture of $ITEM outside of the house",
 		"items" : [
 			"ass",
-			"pussy",
+			"cunt",
 			"tits",
-			"dildo in mouth"
+			"dildo in mouth",
+			"dildo in cunt"
 		]
 	},
 
 	"sandpaper-bra" : {
-		"description" : "Wear sandpaper in bra."
+		"description" : "Wear sandpaper in bra all day"
+	},
+
+	"sandpaper-panites" : {
+		"description" : "Wear sandpaper in panites all day"
+	},
+
+	"tack-bra" : {
+		"description" : "Wear thumb tacks in bra all day"
 	},
 
 	"edging" : {
-		"description" : "Edge 1 time."
-	},
-
-	"sleep-modification" : {
-		"description" : "Sleep $ITEM.",
-		"items" : [
-			"with hands bound",
-			"with butt plug in ass"
-		]
+		"description" : "Edge 2 times"
 	},
 
 	"item-in-cunt" : {
-		"description" : "Carry a normal household item in pussy all day."
+		"description" : "Carry a normal household item in cunt all day"
+	},
+
+	"kneel" : {
+		"description" : "Kneel in front of a toilet for 2 minutes and think about how to be a better fucktoy.<br>3 times during the day"
 	}
+
 
 }

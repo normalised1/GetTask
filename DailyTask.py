@@ -7,7 +7,7 @@ from task.task import GetTask
 
 def application(environ, start_response):
 	previous = False
-	tweak_value = 438
+	tweak_value = 522
 	fast_forward = 0
 	if str(environ['QUERY_STRING'])=='previous':
 		date = datetime.datetime.now() - datetime.timedelta(days=1)
@@ -23,8 +23,13 @@ def application(environ, start_response):
 	month = date.month
 	year = date.year
 	seed = (day + tweak_value) * 100 + month * 1000 + year
-
 	task = str(GetTask(seed))
+
+	# Hack to maintain the current day's task.
+	# TODO: Can be removed
+	if day == 16 and month == 6 and year == 2014:
+		task = 'Deepthroat dildo 12 times.'
+
 	output = '''<html><head><link rel="stylesheet" type="text/css" href="style.css"></head>
 <body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>{0}</h2></p>'''.format(task)
 	if previous != True:
