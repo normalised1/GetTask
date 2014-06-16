@@ -25,16 +25,6 @@ def application(environ, start_response):
 	seed = (day + tweak_value) * 100 + month * 1000 + year
 
 	task = str(GetTask(seed))
-	if day >= 10 and day < 15 and month == 6 and year == 2014:
-		task = 'Sleep on the floor.'
-		if day == 11:
-			task = 'Sleep on the floor, cunt.'
-		elif day == 12:
-			task = 'Sleep on the floor and dream about getting fucked in your whore ass.'
-		elif day > 12:
-			task = 'Sleep on the floor again.'
-			
-
 	output = '''<html><head><link rel="stylesheet" type="text/css" href="style.css"></head>
 <body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>{0}</h2></p>'''.format(task)
 	if previous != True:
