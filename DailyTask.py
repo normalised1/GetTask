@@ -27,8 +27,8 @@ def application(environ, start_response):
 
 	# Hack to maintain the current day's task.
 	# TODO: Can be removed
-	if day == 16 and month == 6 and year == 2014:
-		task = 'Deepthroat dildo 12 times.'
+	if day == 22 and month == 6 and year == 2014:
+		task = 'Edge 2 times with face in a toilet'
 
 	output = '''<html><head><link rel="stylesheet" type="text/css" href="style.css"></head>
 <body><br><p>Daily task for <b>''' + date.strftime("%B %d, %Y") + '</b><h2>{0}</h2></p>'''.format(task)
